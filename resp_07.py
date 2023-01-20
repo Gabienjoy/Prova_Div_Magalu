@@ -12,3 +12,20 @@
 # }
 # Os valores de entrada, x e y são obrigatórios e devem ser números.
 # Tempo estimado: 6-8 minutos. Dificuldade: Fácil.
+
+from flask import Flask, request
+
+
+app = Flask(__name__)
+
+@app.route('/soma', methods=['POST']) 
+def soma():
+    num= request.get_json()
+    x = num['x']
+    y = num['y']
+    resultado= x + y
+    return {"Resultado": resultado}, 202
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

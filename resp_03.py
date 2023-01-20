@@ -19,12 +19,23 @@
 # {id:84, nome:’Leite’, empresa_id:71},
 # {id:85, nome:’Frango’, empresa_id:44}]
 
-estados = [{'id': 1, 'estado': 'Goiás'}, {'id': 2, 'estado': 'Paraná'}]
+Estados = [ {'id': 101, 'estado': 'Goiás'}, 
+            {'id': 102, 'estado': 'Paraná'}
+        ]
 
-cidades = [{'id': 11, 'cidade': 'Diamantina', 'estado_id': 1}, {'id': 12, 'cidade': 'Noronha', 'estado_id': 2}]
+Cidades = [ 
+            {'id': 110, 'cidade': 'Diamantina'}, 
+            {'id': 120, 'cidade': 'Noronha'}
+        ]
 
-bairros = [{'id': 21, 'bairro': 'Betânia', 'cidade_id': 11, 'estado_id': 1},
-           {'id': 22, 'bairro': 'Agostinho', 'cidade_id': 12, 'estado_id': 2},
-           {'id': 23, 'bairro': 'Natal', 'cidade_id': 12, 'estado_id': 2}]
+Bairros = [ 
+            {'id': 201, 'bairro': 'Betânia'},
+            {'id': 202, 'bairro': 'Agostinho'},
+            {'id': 203, 'bairro': 'Natal'} 
+        ]
 
-print()
+Afirmações = [
+                {'id': 201, 'bairro': 'Betânia', 'cidade_id': 110, 'estado_id': 101},
+                {'id': 202, 'bairro': 'Agostinho', 'cidade_id': 120, 'estado_id': 102},
+                {'id': 203, 'bairro': 'Natal', 'cidade_id': 120, 'estado_id': 102}
+            ]
