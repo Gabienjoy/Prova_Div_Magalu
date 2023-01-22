@@ -11,7 +11,7 @@
 # Exemplo da saída do sistema: “Olá,Mundo”.
 
 def concatenacao(param1, param2):
-    return (f'{param1},{param2}')
+    return (f'{param1}, {param2}')
 
 def entrada_usuario():
     param1= str(input('Digite uma palavra: '))

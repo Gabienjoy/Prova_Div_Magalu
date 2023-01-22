@@ -35,7 +35,7 @@ Bairros = [
         ]
 
 Afirmações = [
-                {'id': 201, 'bairro': 'Betânia', 'cidade_id': 110, 'estado_id': 101},
-                {'id': 202, 'bairro': 'Agostinho', 'cidade_id': 120, 'estado_id': 102},
-                {'id': 203, 'bairro': 'Natal', 'cidade_id': 120, 'estado_id': 102}
+                {'id_bairro': 201, 'cidade_id': 110, 'estado_id': 101},
+                {'id_bairro': 202, 'cidade_id': 120, 'estado_id': 102},
+                {'id_bairro': 203, 'cidade_id': 120, 'estado_id': 102}
             ]

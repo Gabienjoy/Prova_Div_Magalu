@@ -24,7 +24,7 @@ def soma():
     x = num['x']
     y = num['y']
     resultado= x + y
-    return {"Resultado": resultado}, 202
+    return {"Resultado": resultado}, 200
 
 
 if __name__ == '__main__':

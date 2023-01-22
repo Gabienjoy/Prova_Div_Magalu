@@ -16,7 +16,3 @@ def obter_colecao_mongodb(url_conexao, colecao):
     conn = MongoClient(url_conexao)
     col = conn[colecao]
     return col
-
-
-print(obter_colecao_mongodb('mongodb+srv://gabisilva:100113@gamamagalu.jl8mrli.mongodb.net/projeto_3', 'test'))
-
